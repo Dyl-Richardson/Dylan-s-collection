@@ -1,0 +1,43 @@
+body {
+    padding: 0 10%;
+}
+
+h1 {
+    padding-left: 200px;
+}
+.header {
+    padding-left: 200px;
+}
+
+h3 {
+    color: darkblue;
+}
+
+h4 {
+    color: darkgreena;
+}
+h5 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 90px 15px;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: lightseagreen;
+    border: black;
+    border-style: solid;
+    height: 50vh;
+    width: 20vw;
+    margin: 15px 0;
+}
+
