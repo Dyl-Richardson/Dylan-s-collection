@@ -6,7 +6,9 @@ Création d'une collection de carte :
 - Javascript Basics
 - The DOM
 
+## Lien
 
+[Github page](https://dyl-richardson.github.io/Collection/)
 
 ## Rendu
 

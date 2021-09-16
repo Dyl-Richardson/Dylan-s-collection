@@ -1,6 +1,6 @@
 const COLLECTION = [
     {
-    image: '<img src="images/battlefield.jpg" alt="" class="gameimg">',
+    image: '<img src="images/battlefield.webp" alt="" class="gameimg">',
     name: "Battlefield 2042",
     genre:["Genre : " + "Action"+ " adventure"],
     releaseYear:"Release year :" + " 2021",
@@ -9,7 +9,7 @@ const COLLECTION = [
     },
   
     {
-    image: '<img src="images/wow.jpg" alt="" class="gameimg">',
+    image: '<img src="images/wow.webp" alt="" class="gameimg">',
     name: "World of Warcraft",
     genre:"Genre : MMORPG",
     releaseYear:"Release year : 2004",
@@ -18,7 +18,7 @@ const COLLECTION = [
     },
 
     {
-    image: '<img src="images/poe.jpg" alt="" class="gameimg">',
+    image: '<img src="images/poe.webp" alt="" class="gameimg">',
     name: "Path of Exile",
     genre:["Genre : Hack'n slash"],
     releaseYear:"Release year : 2013",
@@ -27,7 +27,7 @@ const COLLECTION = [
     },
 
     {
-    image: '<img src="images/newworld.jpg" alt="" class="gameimg">',
+    image: '<img src="images/newworld.webp" alt="" class="gameimg">',
     name: "New World",
     genre:"Genre : MMORPG",
     releaseYear:"Release year : 2021",
@@ -36,7 +36,7 @@ const COLLECTION = [
     },
     
     {
-    image: '<img src="images/mhw.jpg" alt="" class="gameimg">',
+    image: '<img src="images/mhw.webp" alt="" class="gameimg">',
     name: "Monster Hunter World",
     genre:"Genre : Action",
     releaseYear:"Release year : 2018",
@@ -45,7 +45,7 @@ const COLLECTION = [
     },
         
     {
-    image: '<img src="images/ark.jpg" alt="" class="gameimg">',
+    image: '<img src="images/ark.webp" alt="" class="gameimg">',
     name: "ARK",
     genre:["Genre : Action"," survival", " adventure"],
     releaseYear:"Release year : 2017",
@@ -54,7 +54,7 @@ const COLLECTION = [
     },
     
     {
-    image: '<img src="images/rust.jpg" alt="" class="gameimg">',
+    image: '<img src="images/rust.webp" alt="" class="gameimg">',
     name: "Rust",
     genre:["Genre : Action", " survival", " adventure"],
     releaseYear:"Release year : 2018",
@@ -63,7 +63,7 @@ const COLLECTION = [
     },
         
     {
-    image: '<img src="images/payday.jpg" alt="" class="gameimg">',
+    image: '<img src="images/payday.webp" alt="" class="gameimg">',
     name: "Payday 2",
     genre:["Genre : Action", " RPG"],
     releaseYear:"Release year : 2013",
@@ -72,7 +72,7 @@ const COLLECTION = [
     },
     
     {
-    image: '<img src="images/warz.jpg" alt="" class="gameimg">',
+    image: '<img src="images/warz.webp" alt="" class="gameimg">',
     name: "War Z",
     genre:"Genre : Survival horror",
     releaseYear:"Release year : 2012",
@@ -81,7 +81,7 @@ const COLLECTION = [
     },
     
     {
-    image: '<img src="images/ror2.jpg" alt="" class="gameimg">',
+    image: '<img src="images/ror2.webp" alt="" class="gameimg">',
     name: "Risk of Rain 2",
     genre:["Genre : Action", " indie"],
     releaseYear:"Release year : 2020",
@@ -93,7 +93,7 @@ const COLLECTION = [
 let body = document.body;
 
 let moi = document.createElement("img")
-moi.setAttribute('src', 'images/moi.png');
+moi.setAttribute('src', 'images/moi.webp');
 moi.setAttribute('class', 'moi')
 document.querySelector("header").append(moi)
 
