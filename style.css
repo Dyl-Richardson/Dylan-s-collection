@@ -1,43 +1,88 @@
 body {
-    padding: 0 10%;
+    padding: 0 15%;
+    background: url(images/bg.jpg);
+    background-size: 100%;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+header{
+    color: white;
+    padding-left: 2%;
+}
+h1, p {
+    padding-left: 120px;
+    
 }
 
 h1 {
-    padding-left: 200px;
-}
-.header {
-    padding-left: 200px;
+    padding-top: 2.5%;
 }
 
 h3 {
-    color: darkblue;
+    color: lightblue;
 }
 
 h4 {
-    color: darkgreena;
-}
-h5 {
     color: white;
 }
 
-p {
-    color: white;
+.gameimg {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    margin-top: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.moi {
+    border-radius: 50%;
+    position: absolute;
+
 }
 
 section {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 90px 15px;
     flex-wrap: wrap;
 }
 
 article {
-    background-color: lightseagreen;
-    border: black;
+    display: flex;
+    flex-direction: column;
+    background: url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: rgb(83, 83, 83);
     border-style: solid;
+    border-radius: 20px;
     height: 50vh;
     width: 20vw;
     margin: 15px 0;
+    text-align: left;
+    justify-content: flex-end;
+    text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+    body {
+        padding: 0;
+    }
+
+    article {
+        width: 100%;
+        height: 100%;}
+    
+    header {
+        width: 100%;
+        height: 100%;
+        padding-left: 0;}
+
+    .gameimg {
+        width: 85%;
+        margin-top: 7px;
+    }
+}
