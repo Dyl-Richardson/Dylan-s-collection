@@ -8,7 +8,7 @@ Création d'une collection de carte :
 
 ## Lien
 
-[Github page](https://dyl-richardson.github.io/Collection/)
+[Github page](https://dyl-richardson.github.io/Dylan-s-collection/)
 
 ## Rendu
 
