@@ -17,5 +17,4 @@ Création d'une collection de carte :
 
 ## Perf lighthouse 
 
-TBA 
-![perf](image/perf.png)
+![perf](images/perf.png)
